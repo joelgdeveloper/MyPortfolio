@@ -23,27 +23,27 @@ const Navbar = () => {
       
       <ul className='hidden md:flex'>
         <li>
-          <Link to="home" spy={true} smooth={true} duration={500} className='hover:text-[#FFD07D] duration-300' >
+          <Link activeClass="active" to="home" spy={true} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Home
           </Link>
         </li>
         <li>
-        <Link to="about" spy={true} offset={20} smooth={true} duration={500} className='hover:text-[#FFD07D] duration-300' >
+        <Link activeClass="active" to="about" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
           About me
         </Link>
         </li>
         <li>
-          <Link to="skills" spy={true} offset={20} smooth={true} duration={500} className='hover:text-[#FFD07D] duration-300' >
+          <Link activeClass="active" to="skills" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D] duration-300' >
+          <Link activeClass="active" to="work" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Works
           </Link>
         </li>
         <li>
-          <Link to="contact" spy={true} offset={30} smooth={true} duration={500} className='hover:text-[#FFD07D] duration-300' >
+          <Link activeClass="active" to="contact" spy={true} offset={10} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Contact
           </Link>
         </li>

@@ -18,7 +18,7 @@ const Work = () => {
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-            {/* Grid Item */}
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -39,123 +39,111 @@ const Work = () => {
             </div>
           </div>
           
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-            {/* Grid Item */}
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className='opacity-0 group-hover:opacity-100 group-hover:duration-700'>
+              <span className='text-2xl font-bold text-[#0A192F] tracking-wider'>
                 React JS Application
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center gap-5'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
+                  <AiOutlineEye size={50} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <AiOutlineGithub size={42} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
                 </a>
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${realEstate})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                React JS Application
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-            {/* Grid Item */}
+
+          {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className='opacity-0 group-hover:opacity-100 group-hover:duration-700'>
+              <span className='text-2xl font-bold text-[#0A192F] tracking-wider'>
                 React JS Application
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center gap-5'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
+                  <AiOutlineEye size={50} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <AiOutlineGithub size={42} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
                 </a>
               </div>
             </div>
           </div>
+
+          {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${WorkImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
+            <div className='opacity-0 group-hover:opacity-100 group-hover:duration-700'>
+              <span className='text-2xl font-bold text-[#0A192F] tracking-wider'>
                 React JS Application
               </span>
-              <div className='pt-8 text-center'>
+              <div className='pt-8 text-center flex justify-center items-center gap-5'>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Demo
-                  </button>
+                  <AiOutlineEye size={50} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
                 </a>
                 <a href='/'>
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Code
-                  </button>
+                  <AiOutlineGithub size={42} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
                 </a>
               </div>
             </div>
           </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${WorkImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 group-hover:duration-700'>
+              <span className='text-2xl font-bold text-[#0A192F] tracking-wider'>
+                React JS Application
+              </span>
+              <div className='pt-8 text-center flex justify-center items-center gap-5'>
+                <a href='/'>
+                  <AiOutlineEye size={50} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
+                </a>
+                <a href='/'>
+                  <AiOutlineGithub size={42} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${WorkImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100 group-hover:duration-700'>
+              <span className='text-2xl font-bold text-[#0A192F] tracking-wider'>
+                React JS Application
+              </span>
+              <div className='pt-8 text-center flex justify-center items-center gap-5'>
+                <a href='/'>
+                  <AiOutlineEye size={50} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
+                </a>
+                <a href='/'>
+                  <AiOutlineGithub size={42} className="text-[#0A192F] hover:text-[#E31B6D] duration-300" />
+                </a>
+              </div>
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>

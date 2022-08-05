@@ -31,3 +31,8 @@
   
 }
 
+.active {
+  border-bottom: 2px solid #E31B6D !important;
+  padding-bottom: 2px;
+}
+
