@@ -1,18 +1,38 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 
 const Contact = () => {
+
+  const [inputs, setInputs] = useState({});
+
+  const handleChange = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setInputs(values => ({...values, [name]: value}))
+  }
+  
+  useEffect(() => {
+    setInputs("");
+  }, []);
+
   return (
     <div name='contact' className='w-full pt-[135px] md:pt-[150px] bg-[#0a192f] flex justify-center items-center p-4'>
-        <form method='POST' action="https://getform.io/f/0277bed4-ba8a-4960-92c1-3666906f2b9d" className='flex flex-col max-w-[600px] w-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-                <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - myemail@gmail.com</p>
-            </div>
-            <input className='bg-[#ccd6f6] p-2 focus:outline-none' type="text" placeholder='Name' name='name' />
-            <input className='my-4 p-2 bg-[#ccd6f6] focus:outline-none' type="email" placeholder='Email' name='email' />
-            <textarea className='bg-[#ccd6f6] p-2 focus:outline-none' name="message" rows="6" placeholder='Message'></textarea>
-            <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 hover:text-[#FFD07D] px-4 py-3 my-8 mx-auto flex items-center duration-300'>Let's Collaborate</button>
-        </form>
+      <form method='POST' action="https://getform.io/f/cc1f04fd-0a64-42e9-8b5c-01032d13eb54" className='flex flex-col max-w-[600px] w-full' >
+        <div className='pb-8'>
+          <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
+          <p className='text-gray-300 py-4'>// Submit the form below or shoot me an email - myemail@gmail.com</p>
+        </div>
+        
+        <input className='bg-[#ccd6f6] p-2 focus:outline-none' type="text" value={inputs.name || ""} placeholder='Name' name='name' onChange={handleChange} />
+
+        <input className='my-4 p-2 bg-[#ccd6f6] focus:outline-none' type="email" value={inputs.email || ""}  placeholder='Email' name='email' onChange={handleChange} />
+
+        <textarea className='bg-[#ccd6f6] p-2 focus:outline-none' value={inputs.message || ""} name="message" rows="6" placeholder='Message' onChange={handleChange}></textarea>
+
+        <button 
+          className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 hover:text-[#FFD07D] px-4 py-3 my-8 mx-auto flex items-center duration-300'
+          type="submit"
+        >Let's Collaborate</button>
+      </form>
     </div>
   )
 }
