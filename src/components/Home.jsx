@@ -15,7 +15,7 @@ const Home = () => {
           designing) exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications.</p>
         <div>
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="about-to" smooth={true} duration={500}>
             <button className='text-[#FFD07D] group border-2 px-6 py-3 my-5 flex items-center hover:bg-pink-600 hover:border-pink-600 hover:text-[#FFD07D] duration-300'>View Works
               <span className='group-hover:rotate-90 group-hover:text-[#FFD07D] duration-300'>
                 <HiArrowNarrowRight className='ml-3'/>
