@@ -5,6 +5,8 @@
 @tailwind utilities;
 
 @layer base {
+
+
   body {
     @apply font-[Raleway];
   }
@@ -14,6 +16,7 @@
     @apply cursor-pointer
   }
 }
+
 
 .content-div {
   background-repeat: no-repeat;

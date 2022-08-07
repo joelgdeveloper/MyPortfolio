@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10'>
+    <div id='nav' className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-10'>
       <div>
         <Link to="home" smooth={true} duration={500} className='cursor-pointer'>
           <img src={Logo} alt="Logo Image" style={{width: '50px'}}/>
@@ -23,27 +23,27 @@ const Navbar = () => {
       
       <ul className='hidden md:flex'>
         <li>
-          <Link activeClass="active" to="home" spy={true} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
+          <Link activeClass="active" to="home-to" spy={true} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Home
           </Link>
         </li>
         <li>
-        <Link activeClass="active" to="about" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
+        <Link activeClass="active" to="about-to" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
           About me
         </Link>
         </li>
         <li>
-          <Link activeClass="active" to="skills" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
+          <Link activeClass="active" to="skills-to" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Skills
           </Link>
         </li>
         <li>
-          <Link activeClass="active" to="work" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
+          <Link activeClass="active" to="work-to" spy={true} offset={0} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Works
           </Link>
         </li>
         <li>
-          <Link activeClass="active" to="contact" spy={true} offset={10} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
+          <Link activeClass="active" to="contact-to" spy={true} offset={10} smooth={true} duration={500} className='hover:text-[#FFD07D]' >
             Contact
           </Link>
         </li>
@@ -88,7 +88,7 @@ const Navbar = () => {
 
 
       {/* Social Icons */}
-      <div className='hidden lg:flex flex-column fixed top-[35%] left-0 '>
+      <div className='hidden lg:flex flex-column fixed top-[200%] left-0 '>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-0 duration-[400ms] bg-blue-600'>
             <a href="/" className='flex justify-between items-center w-full text-gray-300'>
