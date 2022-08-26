@@ -2,8 +2,6 @@ import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 
-import 'animate.css';
-
 const Home = () => {
   return (
     <div name='home-to' className='w-full h-screen bg-[#0a192f]'>
