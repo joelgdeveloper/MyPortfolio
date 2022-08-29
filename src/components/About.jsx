@@ -4,23 +4,18 @@ const About = () => {
   return (
     <div name='about-to' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       <div id='about' className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
-          <div className='text-center sm:text-right pb-8 pl-4'>
-            <p className='text-4xl font-bold inline border-b-4 border-pink-600'>About</p>
+        <div className=''>
+          <div className='text-center sm:text-right pb-8 pl-41'>
+            <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Sobre mi</p>
           </div>
           <div></div>
         </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-          <div className='sm:text-right text-4xl font-bold'>
-            <p>Hi, I'm Joel Gomez, nice to meet you, Please take a look around.</p>
-          </div>
-          <div className=''>
+        <div className='max-w-[1000px] w-full px-4'>
+          
+          <div className='mt-5'>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+            Desde pequeño tuve fascinación por la tecnología, es por eso que a en mi adolescencia ya me dedicaba a hacer servicio técnico de computadoras y desde ese entonces supe que quería pertenecer a este rubro. Actualmente, me dedico a programar, con experiencias siendo freelancer, y lo cual he aprendido un gran stack de tecnologías con un sólido conocimiento.
+            <br />Hoy me encuentro en la búsqueda de mi primer empleo, estoy con muchas ganas de participar en equipo, mejorar mis aptitudes y adquirir nuevos conocimientos.
             </p>
           </div>
         </div>

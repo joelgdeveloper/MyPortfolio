@@ -18,8 +18,8 @@ const Skills = () => {
       {/* Container */}
       <div id='skills' className='max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-auto pt-32'>
         <div>
-          <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Experience</p>
-          <p className='py-4'>// These are the technologies I've worked with</p>
+          <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Habilidades</p>
+          <p className='py-4'>// Algunas de las tecnologías que domino.</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
