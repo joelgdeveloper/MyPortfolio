@@ -86,7 +86,7 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-3xl text-pink-600'>
          
-          <a href="./src/assets/JoelGomez-CV.pdf" target="_blank">
+          <a href="./assets/JoelGomez-CV.pdf" target="_blank">
               Curriculum
             </a>
           
@@ -113,7 +113,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-0 duration-[400ms] bg-[#565f69]'>
-            <a href="./src/assets/JoelGomez-CV.pdf" target="_blank" className='flex justify-between items-center w-full text-gray-300'>
+            <a href="./assets/JoelGomez-CV.pdf" target="_blank" className='flex justify-between items-center w-full text-gray-300'>
               Curriculum <BsFillPersonLinesFill size={30} />
             </a>
           </li>
